@@ -3,10 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootup</title>
+    <title>TaskHub - College Freelancing Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for nice typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Lesgooo</h1>
+    <!-- HEADER SECTION: Navigation bar at the top -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo/Brand Name -->
+            <div class="logo">TaskHub</div>
+            
+            <!-- Navigation Links -->
+            <nav class="nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+            
+            <!-- Sign In Button -->
+            <a href="#" class="btn-signin">Sign In</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION: Main landing area with tagline and search -->
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Bold Tagline -->
+            <h1 class="hero-title">
+                Find Talented Students.<br>
+                Get Your Tasks Done.
+            </h1>
+            
+            <!-- Subtitle -->
+            <p class="hero-subtitle">
+                The ultimate freelancing platform for college students to exchange skills and complete tasks
+            </p>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    placeholder="Search for any service... (e.g., essay writing, graphic design)"
+                >
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION: Different task categories -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Popular Service Categories</h2>
+            <p class="section-subtitle">Explore various fields where you can find or offer services</p>
+            
+            <!-- Service Cards Grid -->
+            <div class="services-grid">
+                
+                <!-- Card 1: Academic Writing -->
+                <div class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3 class="service-title">Academic Writing</h3>
+                    <p class="service-description">
+                        Essays, research papers, assignments, and proofreading services
+                    </p>
+                </div>
+                
+                <!-- Card 2: Graphic Design -->
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">
+                        Logos, posters, social media graphics, and creative designs
+                    </p>
+                </div>
+                
+                <!-- Card 3: Programming -->
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">Programming</h3>
+                    <p class="service-description">
+                        Web development, app creation, debugging, and code reviews
+                    </p>
+                </div>
+                
+                <!-- Card 4: Tutoring -->
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3 class="service-title">Tutoring</h3>
+                    <p class="service-description">
+                        One-on-one tutoring in math, science, languages, and more
+                    </p>
+                </div>
+                
+                <!-- Card 5: Data Analysis -->
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 class="service-title">Data Analysis</h3>
+                    <p class="service-description">
+                        Statistics, Excel work, data visualization, and research analysis
+                    </p>
+                </div>
+                
+                <!-- Card 6: Video Editing -->
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3 class="service-title">Video Editing</h3>
+                    <p class="service-description">
+                        Video editing, animation, subtitles, and post-production
+                    </p>
+                </div>
+                
+                <!-- Card 7: Content Writing -->
+                <div class="service-card">
+                    <div class="service-icon">✍️</div>
+                    <h3 class="service-title">Content Writing</h3>
+                    <p class="service-description">
+                        Blog posts, articles, copywriting, and creative writing
+                    </p>
+                </div>
+                
+                <!-- Card 8: Translation -->
+                <div class="service-card">
+                    <div class="service-icon">🌍</div>
+                    <h3 class="service-title">Translation</h3>
+                    <p class="service-description">
+                        Document translation, localization, and language services
+                    </p>
+                </div>
+                
+                <!-- Card 9: Social Media -->
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3 class="service-title">Social Media</h3>
+                    <p class="service-description">
+                        Content creation, management, and marketing strategies
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 TaskHub.  Made for students, by students.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
