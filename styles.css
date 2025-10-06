@@ -1,6 +1,4 @@
-/* ============================================
-   BASIC RESET AND GLOBAL STYLES
-   ============================================ */
+/*   BASIC RESET AND GLOBAL STYLES */
 
 
 * {
@@ -12,12 +10,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1a0f2e; 
-    color: #f0f0f0; 
+    background-color: #1a0f2e;
+    color: #f0f0f0;
     line-height: 1.6;
 }
 
-/* Container: Centers content and sets max width */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -25,12 +23,10 @@ body {
 }
 
 
-/* ============================================
-   HEADER SECTION
-   ============================================ */
+/*  HEADER SECTION */
 
 .header {
-    background-color: #1b0a3b; 
+    background-color: #1b0a3b;
     padding: 20px 0;
     border-bottom: 2px solid #7c3aed;
     position: sticky;
@@ -40,37 +36,38 @@ body {
 
 .header .container {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .logo {
     font-size: 28px;
     font-weight: 900;
-    color: #a78bfa; 
+    color: #a78bfa;
 }
 
 
 .nav {
     display: flex;
-    gap: 50px; 
+    gap: 50px;
 }
 
 .nav-link {
-    color: #d8b4fe; 
+    color: #d8b4fe;
     font-weight: 600;
     text-decoration: none;
-    transition: color 0.3s ease; /* Smooth color change */
+    transition: color 0.3s ease;
+    
 }
 
-/* Navigation link hover effect */
+
 .nav-link:hover {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .btn-signin {
-    background-color: #7c3aed; 
+    background-color: #7c3aed;
     color: white;
     padding: 12px 30px;
     border-radius: 8px;
@@ -81,16 +78,14 @@ body {
 
 
 .btn-signin:hover {
-    background-color: #6d28d9; 
+    background-color: #6d28d9;
 }
 
 
-/* ============================================
-   HERO SECTION
-   ============================================ */
+/* HERO SECTION */
 
 .hero {
-    background: linear-gradient(135deg, #3e2965 0%, #1a0f2e 100%); Gradient background
+    background: linear-gradient(135deg, #3e2965 0%, #1a0f2e 100%);
     padding: 100px 20px;
     text-align: center;
     min-height: 600px;
@@ -104,7 +99,7 @@ body {
     margin: 0 auto;
 }
 
-/* Main hero title */
+
 .hero-title {
     font-size: 56px;
     font-weight: 900;
@@ -113,27 +108,30 @@ body {
     line-height: 1.2;
 }
 
-/* Hero subtitle */
+
 .hero-subtitle {
     font-size: 20px;
-    color: #c4b5fd; /* Light violet */
+    color: #c4b5fd;
+    /* Light violet */
     margin-bottom: 40px;
 }
 
-/* Search container */
+
 .search-container {
     display: flex;
     max-width: 700px;
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 12px;
-    overflow: hidden; /* Keeps rounded corners */
-    box-shadow: 0 30px 70px rgba(165, 113, 255, 0.4); /* Violet glow */
+    overflow: hidden;
+    box-shadow: 0 30px 70px rgba(165, 113, 255, 0.4);
+    
 }
 
-/* Search input field */
+
 .search-input {
-    flex: 1; /* Takes up remaining space */
+    flex: 1;
+    /* Takes up remaining space */
     padding: 20px 25px;
     border: none;
     font-size: 16px;
@@ -147,9 +145,10 @@ body {
     color: #9ca3af;
 }
 
-/* Search button */
+
 .search-button {
-    background-color: #7c3aed; /* Violet */
+    background-color: #7c3aed;
+    /* Violet */
     color: white;
     border: none;
     padding: 20px 40px;
@@ -159,19 +158,19 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Search button hover effect */
+
 .search-button:hover {
-    background-color: #6d28d9; /* Darker violet */
+    background-color: #6d28d9;
+    
 }
 
 
-/* ============================================
-   SERVICES SECTION
-   ============================================ */
+/*  SERVICES SECTION */
 
 .services {
     padding: 80px 20px;
-    background-color: #1a0f2e; /* Same as body */
+    background-color: #1a0f2e;
+    
 }
 
 /* Section title */
@@ -194,24 +193,31 @@ body {
 /* Grid layout for service cards */
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 30px; /* Space between cards */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    gap: 30px;
+    /* Space between cards */
 }
 
 /* Individual service card */
 .service-card {
-    background-color: #251740; /* Dark violet card */
+    background-color: #251740;
+    /* Dark violet card */
     padding: 40px 30px;
     border-radius: 12px;
     text-align: center;
-    border: 2px solid #3b2667; /* Subtle border */
-    transition: transform 0.3s ease, border-color 0.3s ease; /* Smooth effects */
+    border: 2px solid #3b2667;
+    /* Subtle border */
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    /* Smooth effects */
 }
 
 /* Service card hover effect */
 .service-card:hover {
-    transform: translateY(-5px); /* Lift up slightly */
-    border-color: #7c3aed; /* Bright violet border */
+    transform: translateY(-5px);
+    /* Lift up slightly */
+    border-color: #7c3aed;
+    /* Bright violet border */
 }
 
 /* Service icon (emoji) */
@@ -236,9 +242,7 @@ body {
 }
 
 
-/* ============================================
-   FOOTER SECTION
-   ============================================ */
+/*   FOOTER SECTION */
 
 .footer {
     background-color: #251740;
@@ -254,57 +258,317 @@ body {
 }
 
 
-/* ============================================
-   RESPONSIVE DESIGN FOR MOBILE DEVICES
-   ============================================ */
 
-/* Tablets and smaller screens */
-@media (max-width: 768px) {
-    
-    /* Stack navigation vertically on mobile */
-    .header .container {
-        flex-direction: column;
-        gap: 15px;
-    }
-    
-    .nav {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
-    
-    /* Smaller hero title on mobile */
-    .hero-title {
-        font-size: 36px;
-    }
-    
-    .hero-subtitle {
-        font-size: 16px;
-    }
-    
-    /* 2 columns on tablets */
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
+/*  AUTHENTICATION PAGES (Sign In / Sign Up) */
+
+
+.auth-section {
+    background: linear-gradient(135deg, #3e2965 0%, #1a0f2e 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
 }
 
-/* Mobile phones */
-@media (max-width: 480px) {
-    
-    /* Even smaller title */
-    .hero-title {
-        font-size: 28px;
-    }
-    
-    /* Stack search bar vertically */
-    .search-container {
-        flex-direction: column;
-    }
-    
-    /* 1 column on mobile */
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-    
+
+.auth-container {
+    background-color: #251740;
+    border: 2px solid #3b2667;
+    border-radius: 16px;
+    padding: 50px 40px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(124, 58, 237, 0.3);
+}
+
+/* Authentication title */
+.auth-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Authentication subtitle */
+.auth-subtitle {
+    font-size: 16px;
+    color: #c4b5fd;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Form styling */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Form group (label + input wrapper) */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Form labels */
+.form-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #e9d5ff;
+}
+
+/* Form inputs */
+.form-input {
+    padding: 15px 20px;
+    border: 2px solid #3b2667;
+    border-radius: 10px;
+    background-color: #1b0a3b;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.form-input:focus {
+    outline: none;
+    border-color: #7c3aed;
+}
+
+/* Input placeholder styling */
+.form-input::placeholder {
+    color: #8b7aa8;
+}
+
+/* Toggle container (for freelancer/client buttons) */
+.toggle-container {
+    display: flex;
+    gap: 15px;
+}
+
+/* Toggle button */
+.toggle-button {
+    flex: 1;
+    background-color: #1b0a3b;
+    border: 2px solid #3b2667;
+    border-radius: 12px;
+    padding: 20px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Toggle button hover effect */
+.toggle-button:hover {
+    border-color: #7c3aed;
+    transform: translateY(-2px);
+}
+
+/* Active toggle button */
+.toggle-button.active {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+/* Toggle icon (emoji) */
+.toggle-icon {
+    font-size: 32px;
+}
+
+/* Toggle button text */
+.toggle-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Toggle button description */
+.toggle-description {
+    font-size: 12px;
+    color: #c4b5fd;
+}
+
+/* Submit button */
+.submit-button {
+    background-color: #7c3aed;
+    color: #ffffff;
+    border: none;
+    padding: 16px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+    background-color: #6d28d9;
+}
+
+/* Footer text below form */
+.auth-footer {
+    text-align: center;
+    color: #c4b5fd;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Link in footer (Sign In / Sign Up links) */
+.auth-link {
+    color: #7c3aed;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Link hover effect */
+.auth-link:hover {
+    color: #a78bfa;
+}
+
+/* Hide the radio input buttons (for pure CSS toggle) */
+.radio-hidden {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* When radio button is checked, style its label to show active state */
+.radio-hidden:checked + .toggle-button {
+    background-color: #7c3aed;
+    border-color: #7c3aed;
+}
+
+
+/* ============================================
+   GIGS LISTING PAGE
+   ============================================ */
+
+/* Gigs section */
+.gigs-section {
+    background-color: #1a0f2e;
+    min-height: 100vh;
+    padding: 80px 20px;
+}
+
+/* Page title */
+.page-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Page subtitle */
+.page-subtitle {
+    font-size: 18px;
+    text-align: center;
+    color: #c4b5fd;
+    margin-bottom: 50px;
+}
+
+/* Grid layout for gig cards */
+.gigs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 30px; /* Space between cards */
+}
+
+/* Individual gig card */
+.gig-card {
+    background-color: #251740;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #3b2667;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Gig card hover effect */
+.gig-card:hover {
+    transform: translateY(-5px);
+    border-color: #7c3aed;
+}
+
+/* Gig header (title and points) */
+.gig-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* Gig title */
+.gig-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    flex: 1;
+    line-height: 1.3;
+}
+
+/* Points badge */
+.gig-points {
+    background-color: #7c3aed;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* Gig description */
+.gig-description {
+    font-size: 15px;
+    color: #c4b5fd;
+    line-height: 1.6;
+}
+
+/* Gig details (category and duration) */
+.gig-details {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Category and duration tags */
+.gig-category,
+.gig-duration {
+    font-size: 14px;
+    color: #e9d5ff;
+}
+
+/* Apply Now button */
+.gig-button {
+    background-color: #7c3aed;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+/* Apply button hover effect */
+.gig-button:hover {
+    background-color: #6d28d9;
 }
