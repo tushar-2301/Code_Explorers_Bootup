@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - TaskHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <script> type="module" src="firebaseauth.js" </script>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="color: inherit; text-decoration: none;">TaskHub</a>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+        </div>
+    </header>
+
+   
+    <section class="auth-section">
+        <div class="auth-container">
+            
+            
+            <h1 class="auth-title">Create Your Account</h1>
+            <p class="auth-subtitle">Join TaskHub and start your freelancing journey</p>
+            
+
+            <form class="auth-form">
+                
+                
+                <div class="form-group">
+                    <label for="fullname" class="form-label">Full Name</label>
+                    <input 
+                        type="text" 
+                        id="fullname" 
+                        class="form-input" 
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        class="form-input" 
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+                
+                
+                <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        class="form-input" 
+                        placeholder="Create a strong password"
+                        required
+                    >
+                </div>
+                
+                <!-- Account Type Toggle using Radio Buttons -->
+                <div class="form-group">
+                    <label class="form-label">I want to join as:</label>
+                    <div class="toggle-container">
+                        
+                        <!-- Hidden Radio Buttons -->
+                        <input type="radio" id="freelancer" name="account-type" value="freelancer" checked class="radio-hidden">
+                        <input type="radio" id="client" name="account-type" value="client" class="radio-hidden">
+                        
+                        <!-- Freelancer Option -->
+                        <label for="freelancer" class="toggle-button">
+                            <span class="toggle-icon">💼</span>
+                            <span class="toggle-text">Freelancer</span>
+                            <span class="toggle-description">Offer your skills</span>
+                        </label>
+                        
+                        <!-- Client Option -->
+                        <label for="client" class="toggle-button">
+                            <span class="toggle-icon">🎯</span>
+                            <span class="toggle-text">Client</span>
+                            <span class="toggle-description">Find talent</span>
+                        </label>
+                        
+                    </div>
+                </div>
+                
+                
+                <button type="submit" class="submit-button" id="submit">Create Account</button>
+                
+                
+                <p class="auth-footer">
+                    Already have an account? 
+                    <a href="signin.html" class="auth-link">Sign In</a>
+                </p>
+                
+            </form>
+            
+        </div>
+    </section>
+
+</body>
+</html>
